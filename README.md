@@ -1,2 +1,3 @@
 # GFWList2AGH
-Generate diversion list for AdGuard Home and other softwares
+Self-use
+Fork from:https://github.com/hezhijie0327/GFWList2AGH/
