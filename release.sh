@@ -137,9 +137,9 @@ function GenerateRules() {
     case ${software_name} in
         adguardhome)
             domestic_dns=(
+                "101.6.6.6:5353"
                 "https://1.12.12.12/dns-query"
                 "https://120.53.53.53/dns-query"
-                "101.6.6.6:5353"
                 # "https://dns.alidns.com:443/dns-query"
                 # "https://dns.ipv6dns.com:443/dns-query"
                 # "https://doh.360.cn:443/dns-query"
