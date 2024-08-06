@@ -137,17 +137,17 @@ function GenerateRules() {
     case ${software_name} in
         adguardhome)
             domestic_dns=(
-                "180.184.1.1"
+                "https://223.5.5.5:443/dns-query"
                 "https://1.12.12.12/dns-query"
                 "https://120.53.53.53/dns-query"
-                # "https://dns.alidns.com:443/dns-query"
-                # "https://dns.ipv6dns.com:443/dns-query"
-                # "https://doh.360.cn:443/dns-query"
-                # "https://doh.pub:443/dns-query"
-                # "tls://dns.alidns.com:853"
-                # "tls://dns.ipv6dns.com:853"
-                # "tls://dot.360.cn:853"
-                # "tls://dot.pub:853"
+                "https://dns.alidns.com:443/dns-query"
+                "https://dns.ipv6dns.com:443/dns-query"
+                "https://doh.360.cn:443/dns-query"
+                "https://doh.pub:443/dns-query"
+                "tls://dns.alidns.com:853"
+                "tls://dns.ipv6dns.com:853"
+                "tls://dot.360.cn:853"
+                "tls://dot.pub:853"
             )
             foreign_dns=(
                 "https://1.1.1.1/dns-query"
@@ -216,17 +216,17 @@ function GenerateRules() {
         ;;
         adguardhome_new)
             domestic_dns=(
-                "180.184.1.1"
+                "https://223.5.5.5:443/dns-query"
                 "https://1.12.12.12/dns-query"
                 "https://120.53.53.53/dns-query"
-                # "https://dns.alidns.com:443/dns-query"
-                # "https://dns.ipv6dns.com:443/dns-query"
-                # "https://doh.360.cn:443/dns-query"
-                # "https://doh.pub:443/dns-query"
-                # "tls://dns.alidns.com:853"
-                # "tls://dns.ipv6dns.com:853"
-                # "tls://dot.360.cn:853"
-                # "tls://dot.pub:853"
+                "https://dns.alidns.com:443/dns-query"
+                "https://dns.ipv6dns.com:443/dns-query"
+                "https://doh.360.cn:443/dns-query"
+                "https://doh.pub:443/dns-query"
+                "tls://dns.alidns.com:853"
+                "tls://dns.ipv6dns.com:853"
+                "tls://dot.360.cn:853"
+                "tls://dot.pub:853"
             )
             foreign_dns=(
                 "https://1.1.1.1/dns-query"
